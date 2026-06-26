@@ -1,5 +1,4 @@
-import streamlist as st 
-
+import steamlit as st
 st.title("My Digital Profile)
 st.header("แนะนำตัว")
 st.write("นางสาวรวิสรา จันโท")
