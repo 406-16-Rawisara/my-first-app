@@ -1,5 +1,5 @@
 import steamlit as st
-st.title("My Digital Profile)
+st.title("My Digital Profile")
 st.header("แนะนำตัว")
 st.write("นางสาวรวิสรา จันโท")
 st.write("ชื่อเล่น โอปอล")
