@@ -53,14 +53,14 @@ def show_result_dialog(ans1, ans2, ans3,ans4 ):
 
     
     # ตรวจข้อ 3
-    if u_ans1 == "Mango":
+    if u_ans1 == "mango":
         st.success("✅ ข้อ 3: ถูกต้อง")
         score += 1
     else:
         st.error(f"❌ ข้อ 3: ยังไม่ถูกต้อง (คุณตอบ '{u_ans3}')")
 
     # ตรวจข้อ 4
-    if u_ans2 == "Banana":
+    if u_ans2 == "banana":
         st.success("✅ ข้อ 4: ถูกต้อง")
         score += 1
     else:
@@ -101,11 +101,11 @@ ans2 = st.text_input(
     value=st.session_state.ans2_val,
 )
 ans3 = st.text_input(
-    "ข้อ 3: A `M _ n g _`  yellow fruit. 🥭",
+    "ข้อ 3: A `m _ n g _`  yellow fruit. 🥭",
     value=st.session_state.ans3_val,
 )
 ans4 = st.text_input(
-    "ข้อ 4: Monkeys like to eat  `B _ _ _ n a`. 🍌 ",
+    "ข้อ 4: Monkeys like to eat  `b _ _ _ n a`. 🍌 ",
     value=st.session_state.ans4_val,
 )
 # อัปเดตค่าล่าสุดเข้าตัวแปร
